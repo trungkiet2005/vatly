@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: monospace; */
+}
+header
+{
+    height: 8vw;
+    width: 100vw;
+    /* background-color: #6E85B7; */
+    background-color: rgba(110,133,183, 0.85);
+    margin: 0 auto;
+}
+#avatar
+{
+    width: 8vw;
+    height: 8vw;
+    /* border-radius: 8vw; */
+    margin-left: 15vw;
+}
+#tieude
+{
+    float: right;
+    margin-right: 38vw;
+    margin-top: 2.5vw;
+    font-size: 3vw;
+}
+nav
+{
+    height: 4vw;
+    width: 100vw;
+    /* background-color: #B2C8DF; */
+    background-color: rgba(178,200,223,0.8);
+    margin: 0 auto;
+}
+.menu
+{
+    margin-left: 11vw;
+}
+nav ul
+{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    margin: 1.1vw 7vw;
+    
+}
+nav ul li a{
+    font-size: 1.5vw;
+    color: black;
+    text-decoration: none;
+}
+center
+{
+    margin-top: 3vw;
+}
+.gioithieu
+{
+    width: 100vw;
+    height: 100vh;
+}
+#bgvideo
+{
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.noidung
+{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-size: 1.7vw;
+}
+.noidung p
+{
+    font-size: 1.5vw;
+}
+.sz{
+    font-size: 1.7vw;
+}
+.videovl
+{
+    margin-left: 5vw;
+    width: 60vw;
+    height: 40vw;
+}
+.dd
+{
+    margin-left: 3vw;
+}
+#mau
+{
+    width: 50vw;
+    height: 10vw;
+}
+.hoi p{
+    font-size: 1.7vw;
+}
+.luachon
+{
+    margin-top: 0.4vw;
+    margin-left: 3vw;
+}
+.traloi
+{
+    margin-top: 0.5vw;
+    margin-left: 3vw;
+}
+@media screen and (max-width: 500px){
+    header
+    {
+        height: 8vh;
+        width: 100vw;
+        /* background-color: #6E85B7; */
+        background-color: rgba(110,133,183, 0.85);
+        margin: 0 auto;
+    }
+     #avatar
+    {
+        width: 8vh;
+        height: 8vh;
+        border-radius: 8vw;
+        margin-left: 10vw;
+    }
+    #tieude
+    {
+        float: right;
+        margin-right: 8vw;
+        margin-top: 2.5vh;
+        font-size: 3vh;
+    }
+        nav
+    {
+        height: 4vh;
+        width: 100vw;
+        /* background-color: #B2C8DF; */
+        background-color: rgba(178,200,223,0.8);
+        margin: 0 auto;
+    }
+    .menu
+    {
+        margin-left: 11vw;
+    }
+    nav ul
+    {
+        list-style: none;
+    }
+    nav ul li{
+        float: left;
+        margin: 1.0vh 4vw;
+        
+    }
+    nav ul li a{
+        font-size: 1.2vh;
+        color: black;
+        text-decoration: none;
+    }
+    .gioithieu
+    {
+        width: 100vw;
+        height: 80vh;
+    }
+  }
