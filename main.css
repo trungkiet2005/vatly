@@ -83,8 +83,7 @@ center
 }
 .videovl
 {
-    margin-left: 5vw;
-    width: 60vw;
+    width: 70vw;
     height: 40vw;
 }
 .dd
@@ -114,7 +113,27 @@ center
     width: 60vw;
     height: 20vh;
 }
-
+.anhtia
+{
+    /* style="height:466px; width:800px" */
+    width: 60vw;
+    height:37vw 
+}
+.anhmat
+{
+    width: 80vw;
+    height:46vw 
+}
+.cuoi
+{
+    width: 100vw;
+    height: 40vh;
+}
+.giaothoa
+    {
+        width: 80vw;
+        height: 46vw;
+    }
 @media screen and (max-width: 500px){
     header
     {
@@ -184,8 +203,8 @@ center
     }
     .videovl
     {
-        margin-left: 5vw;
-        width: 70vw;
+        /* margin-left: 5vw; */
+        width: 80vw;
         height: 40vw;
     }
     .dd
@@ -218,5 +237,24 @@ center
     .anhtl1{
         width: 90vw;
         height: 11vw;
+    }
+    .picqp{
+        width: 70vw;
+        height: 30vw;
+    }
+    .anhmat
+    {
+        width: 80vw;
+        height: 46vw;
+    }
+    .giaothoa
+    {
+        width: 80vw;
+        height: 46vw;
+    }
+    .cuoi
+    {
+        width: 100vw;
+        height: 40vh;
     }
   }
