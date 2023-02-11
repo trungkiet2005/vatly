@@ -134,6 +134,11 @@ center
         width: 80vw;
         height: 46vw;
     }
+.anhgiaothoa
+{
+    width: 65vw;
+    height: 17vw;
+}
 @media screen and (max-width: 500px){
     header
     {
@@ -256,5 +261,10 @@ center
     {
         width: 100vw;
         height: 40vh;
+    }
+    .anhgiaothoa
+    {
+        width: 90vw;
+        height: 45vw;
     }
   }
